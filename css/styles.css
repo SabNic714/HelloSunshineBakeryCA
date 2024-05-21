@@ -6,7 +6,6 @@ $color-pale: #AE7B37;
 $color-mid: #FADADD;
 $color-dark: #FFD1DC;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-$color-teal: #2fc8df;
 
 $body-font: "Roboto Flex","Open Sans", sans-serif;
 $header-font: "Poetsen One", "Lobster", cursive;
@@ -17,7 +16,8 @@ $header-font: "Poetsen One", "Lobster", cursive;
 /* header things */
 
 header {
-    
+    background-color:#be3455;
+    width: 100%;
 }
 
 /* navbar things */
