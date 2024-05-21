@@ -21,7 +21,11 @@ header {
 }
 
 /* navbar things */
-
+.navbar {
+    background-color: #be3455;
+    font-family: "Roboto Flex", "Open Sans", sans-serif;
+    color: #FADADD;
+}
 
 /* body things */
 body{
@@ -52,4 +56,10 @@ h1, h2 {
     color: #FADADD;
     background-color: #FFFFF4;
     text-shadow: 1px 1px grey;
+  }
+
+  a, .navbar-brand {
+    font-family: "Roboto Flex", "Open Sans", sans-serif;
+    color: deepskyblue;
+    text-shadow: 0 0;
   }
