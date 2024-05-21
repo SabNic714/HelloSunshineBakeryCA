@@ -1,0 +1,55 @@
+/*
+
+$color-primary: #FFFFF4;
+$color-secondary: #D1A12A;
+$color-pale: #AE7B37;
+$color-mid: #FADADD;
+$color-dark: #FFD1DC;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #2fc8df;
+
+$body-font: "Roboto Flex","Open Sans", sans-serif;
+$header-font: "Poetsen One", "Lobster", cursive;
+
+
+*/
+
+/* header things */
+
+header {
+    
+}
+
+/* navbar things */
+
+
+/* body things */
+body{
+    font-family: "Roboto Flex", "Open Sans", sans-serif;
+    color: #FADADD;
+    background-color: #FFFFF4;
+    text-shadow: 1px 1px grey;
+}
+
+h1, h2 {
+    font-family: "Poetsen One", "Lobster", serif;
+    color: #D1A12A;
+    text-shadow: 2px 2px #ae7b37;  
+}
+
+.menu {
+  border-radius: 25px;
+  border: 3px #be3455 dotted;
+}
+
+.contact {
+    border-radius: 25px;
+    border: 3px #be3455 dotted;
+  }
+
+  .list-group-item {
+    font-family: "Roboto Flex", "Open Sans", sans-serif;
+    color: #FADADD;
+    background-color: #FFFFF4;
+    text-shadow: 1px 1px grey;
+  }
