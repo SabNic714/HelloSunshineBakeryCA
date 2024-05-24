@@ -1,0 +1,25 @@
+{
+  "name": "hellosb",
+  "version": "1.0.0",
+  "description": "Hello Sunshine Bakery CA website repository",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel --open",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabNic714/HelloSunshineBakeryCA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabNic714/HelloSunshineBakeryCA/issues"
+  },
+  "homepage": "https://github.com/SabNic714/HelloSunshineBakeryCA#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

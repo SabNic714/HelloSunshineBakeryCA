@@ -10,6 +10,10 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 $body-font: "Roboto Flex","Open Sans", sans-serif;
 $header-font: "Poetsen One", "Lobster", cursive;
 
+for stroke (outline) around text
+-webkit-text-stroke-width: 0.25px;
+-webkit-text-stroke-color: grey or #ae7b37
+
 
 */
 
@@ -25,7 +29,6 @@ header {
     background-color: #FADADD;
     font-family: "Roboto Flex", "Open Sans", sans-serif;
     color: #D1A12A;
-    ;
 }
 
 /* body things */
@@ -33,7 +36,9 @@ body{
     font-family: "Roboto Flex", "Open Sans", sans-serif;
     color: #FADADD;
     background-color: #FFFFF4;
-    text-shadow: 1px 1px grey;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #ae7b37;
+    font-weight: bolder;
 }
 
 h1, h2 {
@@ -45,22 +50,26 @@ h1, h2 {
 .menu {
   border-radius: 25px;
   border: 3px #be3455 dotted;
+  margin-bottom: 2%;
 }
 
 .contact {
     border-radius: 25px;
     border: 3px #be3455 dotted;
+    margin-bottom: 2%;
   }
 
   .list-group-item {
     font-family: "Roboto Flex", "Open Sans", sans-serif;
     color: #FADADD;
     background-color: #FFFFF4;
-    text-shadow: 1px 1px grey;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: #ae7b37;
+    font-weight: bolder;
   }
 
   a, .navbar-brand {
     font-family: "Roboto Flex", "Open Sans", sans-serif;
     color: steelblue;
-    text-shadow: 0 0;
   }
+
